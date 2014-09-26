@@ -27,9 +27,9 @@ tedious, so I created this little library.
 Usage
 -----
 
-Add the following entry to your project.clj ```clojure :dependencies:```
+Add the following entry to your project.clj `:dependencies` vector:
 
-[![Clojars Project](http://clojars.org/js-idiomatic-symbols/latest-version.svg)]
+![Clojars Project](http://clojars.org/js-idiomatic-symbols/latest-version.svg)
 
 Then, in your code, you can do these things:
 
