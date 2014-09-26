@@ -27,6 +27,12 @@ tedious, so I created this little library.
 Usage
 -----
 
+Add the following entry to your project.clj ```clojure :dependencies:```
+
+[![Clojars Project](http://clojars.org/js-idiomatic-symbols/latest-version.svg)]
+
+Then, in your code, you can do these things:
+
 ```clojurescript
 (ns js-friendly
   (:require [js-idiomatic-symbols.core :as jsid])
