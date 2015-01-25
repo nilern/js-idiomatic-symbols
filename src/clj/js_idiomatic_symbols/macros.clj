@@ -5,10 +5,10 @@
   "(defjs-idiomatic this<-me->you?! foo)
    ;=> (def ^:export isThisFromMeToYou foo)"
   [sym & body]
-  `(def ^:export ~(jsid/js-idiomatize-sym sym) ~@body))
+  `(def ~(vary-meta (jsid/js-idiomatize-sym sym) assoc :export true) ~@body))
 
 (defmacro defjs-idiomatic-export
   "(defjs-idiomatic this<-me->you?!)
    ;=> (def ^:export isThisFromMeToYou this<-me->you?!)"
   [sym]
-  `(def ^:export ~(jsid/js-idiomatize-sym sym) ~sym))
+  `(def ~(vary-meta (jsid/js-idiomatize-sym sym) assoc :export true) ~sym))

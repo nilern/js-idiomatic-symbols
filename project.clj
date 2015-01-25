@@ -1,4 +1,4 @@
-(defproject js-idiomatic-symbols "0.1.0"
+(defproject js-idiomatic-symbols "0.1.1"
   :description "Transform Clojure naming conventions to those of JavaScript."
   :url "https://github.com/nilern/js-idiomatic-symbols"
   :license {:name "Eclipse Public License"
